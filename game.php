@@ -1,5 +1,4 @@
 <?php
-// PHP: Handle form submission
 $name = $age = $phone = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
