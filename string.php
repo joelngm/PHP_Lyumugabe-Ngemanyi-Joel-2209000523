@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<h3>String Length:</h3>";
     echo "<p>$stringLength</p>";
 
-    // Replace a substring (for example, replacing 'a' with '@')
+    // Replace a substring (for example, replacing 'a' with '@'.)
     $replacedString = str_replace("a", "@", $inputString);
     echo "<h3>Replace 'a' with '@':</h3>";
     echo "<p>$replacedString</p>";
