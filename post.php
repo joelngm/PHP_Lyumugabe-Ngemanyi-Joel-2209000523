@@ -14,7 +14,6 @@
     </form>
 
     <?php
-    // Display the password if it is submitted using POST method
     if (isset($_POST['password'])) {
         $password = $_POST['password'];
         echo "<h2>You entered: " . htmlspecialchars($password) . "</h2>";
